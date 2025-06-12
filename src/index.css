@@ -201,6 +201,16 @@ main {
   background-color: var(--secondary-color);
 }
 
+.correct {
+  background-color: #4caf50;
+  color: white;
+}
+
+.incorrect {
+  background-color: #f44336;
+  color: white;
+}
+
 /* Lifestyle Page Styles */
 .lifestyle-page h2 {
   color: var(--secondary-color);
@@ -348,14 +358,4 @@ main {
   font-size: 0.8rem;
   color: var(--primary-color);
   font-style: italic;
-}
-
-.correct {
-  background-color: #4caf50;
-  color: white;
-}
-
-.incorrect {
-  background-color: #f44336;
-  color: white;
 }
